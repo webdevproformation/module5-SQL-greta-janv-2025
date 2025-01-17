@@ -1,0 +1,9 @@
+
+------------------                   --------------------           -------------
+    etudiant                              langage                     entreprise
+------------------                   --------------------           ---------------
+id PK                                id PK                          id PK  
+prenom VARCHAR(255)  <--maitrise-->  domaine VARCHAR(255)  <-->     nom VARCHAR(255)
+nom    VARCHAR(255)
+
+=> extension dans Visual Studio Code => drawio 
