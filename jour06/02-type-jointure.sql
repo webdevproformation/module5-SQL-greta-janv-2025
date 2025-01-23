@@ -95,3 +95,9 @@ FROM salle as s
 OUTER JOIN reservation AS r
 ON r.id_salle = s.id
 WHERE r.id_salle IS NULL;
+
+
+-- les plus utilisées des jointures
+-- JOIN
+-- LEFT JOIN 
+-- 90% des cas 

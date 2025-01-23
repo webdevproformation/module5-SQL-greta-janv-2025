@@ -4,26 +4,35 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="etudiants" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="2" value="etudiants" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="90" y="60" width="210" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="alain" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="3" value="alain" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="110" y="110" width="50" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="celine" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="4" value="celine" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="240" y="110" width="50" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="zorro" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="5" value="zorro" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="240" y="180" width="50" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="compétences php" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="6" value="compétences" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="229" y="60" width="200" height="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="FROM etudiants&lt;br&gt;JOIN competences&lt;br&gt;ON etudiant.id = competence.id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="7" value="FROM etudiants&lt;br&gt;JOIN competences&lt;br&gt;ON etudiant.id = competence.id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="430" y="80" width="220" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="FROM etudiants&lt;br&gt;LEFT JOIN competences&lt;br&gt;ON etudiant.id = competence.id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="8" value="FROM etudiants&lt;br&gt;LEFT JOIN competences&lt;br&gt;ON etudiant.id = competence.id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="430" y="180" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="php" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="150" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="js" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="100" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="html" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="190" width="30" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
